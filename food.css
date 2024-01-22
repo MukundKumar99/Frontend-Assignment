@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.navbar {
+    height: 9vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7171;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.nav-link-container {
+    list-style-type: none;
+    width: 90%;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-link-container {
+        justify-content: space-between;
+    }
+}
+
+.nav-link-button {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.medium {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .medium {
+        display: block;
+    }
+}
+
+.menu-icon {
+    width: 26px;
+    height: 26px;
+    color: #fff;
+}
+
+.bg-container {
+    display: flex;
+    min-height: 50vh;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .bg-container {
+        min-height: 740px;
+    }
+}
+
+.text-bg-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-image: linear-gradient(to right, #FFF6AE, #FFD1D2);
+}
+
+@media screen and (min-width: 768px) {
+    .text-bg-container {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger-image {
+    width: 50vw;
+    height: 100%;
+}
+
+.title {
+    font-size: 20px;
+    color: #191919;
+    font-family: 'Roboto';
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 56px;
+        letter-spacing: 7px;
+    }
+}
+
+.description {
+    color: #19191C;
+    font-size: 12px;
+    font-family: 'Roboto';
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .description {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+.clickme-button {
+    background-color: #FF7171;
+    color: #fff;
+    width: 100px;
+    height: 32px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .clickme-button {
+        width: 200px;
+        height: 48px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+}
+
+.bottom-bg-container {
+    background-image: linear-gradient(to right, #FFEEB5, #FFB4EE);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70vh;
+    padding: 10% 2% 10% 2%;
+}
+
+@media screen and (min-widtth: 768px) {
+    .bottom-bg-container {
+        padding: 10%;
+        min-height: 80vh;
+
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 48%;
+    padding-right: 2%;
+    max-height: 70vh;
+    flex-grow: 1;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding-right: 2%;
+}
+
+.cafe-image {
+    max-height: 49%;
+}
+
+.menu-image {
+    height: 100%;
+    max-width: 100%;
+    padding-left: 2%;
+}
+
+.image-text-container {
+    background-color: #FF7171;
+    min-height: 40%;
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.click-button {
+    background-color: transparent;
+    align-self: flex-start;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    height: 18px;
+    width: 18px;
+    margin-left: 10px;
+}
